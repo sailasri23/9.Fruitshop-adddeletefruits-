@@ -1,5 +1,7 @@
-const fruitsList = document.querySelector(".fruits");
+//const fruitsList = document.querySelector(".fruits");
 const existingFruits = document.querySelectorAll(".fruits .fruit");
+//or you can use const existingFruits = document.querySelectorAll(".fruit");
+
 existingFruits.forEach(function (fruit) {
   const editButton = document.createElement("button");
   editButton.className = "edit-btn";
